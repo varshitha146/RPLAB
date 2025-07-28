@@ -1,0 +1,5 @@
+fn main() {
+    let a: i32 = 10;
+    let b: f64 = a as f64;
+    println!("a as f64: {}", b);
+}
