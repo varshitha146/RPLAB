@@ -1,0 +1,11 @@
+fn main() {
+    const INT_CONST: i32 = 100;
+    const FLOAT_CONST: f64 = 3.14159;
+    const BOOL_CONST: bool = true;
+    const CHAR_CONST: char = 'A';
+   
+    println!("INT_CONST: {}", INT_CONST);
+    println!("FLOAT_CONST: {}", FLOAT_CONST);
+    println!("BOOL_CONST: {}", BOOL_CONST);
+    println!("CHAR_CONST: {}", CHAR_CONST);
+}
