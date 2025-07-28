@@ -1,0 +1,12 @@
+fn main() {
+    let mut count = 0;
+    let mut value = 0;
+    
+    while value < 20 {
+        value += 3;
+        count += 1;
+        println!("Iteration {}: value = {}", count, value);
+    }
+
+    println!("Total iterations: {}", count);
+}
