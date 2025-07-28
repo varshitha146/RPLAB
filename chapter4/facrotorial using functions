@@ -1,0 +1,13 @@
+fn factorial_iterative(n: u64) -> u64 {
+    let mut result = 1;
+    for i in 1..=n {
+        result *= i;
+    }
+    result
+}
+
+fn main() {
+    let number = 5;
+    let factorial_result = factorial_iterative(number);
+    println!("Factorial of {} is: {}", number, factorial_result);
+}
