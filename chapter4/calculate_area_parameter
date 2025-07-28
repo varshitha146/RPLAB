@@ -1,0 +1,15 @@
+fn calculate_area_perimeter(x: f64, y: f64) -> (f64, f64) {
+    let area = x * y;
+    let perimeter = 2.0 * (x + y);
+    (area, perimeter)
+}
+
+fn main() {
+    let length = 5.0;
+    let width = 3.0;
+
+    let (area, perimeter) = calculate_area_perimeter(length, width);
+
+    println!("Area: {}", area);
+    println!("Perimeter: {}", perimeter);
+}
