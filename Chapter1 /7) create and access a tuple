@@ -1,0 +1,8 @@
+fn main() {
+    let my_tuple = ("apple", "banana", "cherry", 10, 20);
+    println!("First element: {}", my_tuple.0);
+    println!("Third element: {}", my_tuple.2);
+    println!("Last element: {}", my_tuple.4);
+    let (a, b, c, d, e) = my_tuple;
+    println!("Destructured: {}, {}, {}, {}, {}", a, b, c, d, e);
+}
